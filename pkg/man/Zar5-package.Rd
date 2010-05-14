@@ -24,7 +24,7 @@ LazyLoad: \tab yes\cr
 }
 }
 \author{
-Kevin Middleton <kmm@csusb.edu>
+Kevin Middleton (\email{kmm@csusb.edu})
 }
 
 \references{

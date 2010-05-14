@@ -1,5 +1,5 @@
-\name{ex13.4}
-\alias{ex13.4}
+\name{ex13.04}
+\alias{ex13.04}
 
 \docType{data}
 
@@ -11,7 +11,7 @@ Zar Data Set: ex13.3
 Zar Data Set: ex13.3
 }
 
-\usage{data(ex13.4)}
+\usage{data(ex13.04)}
 \format{
   A data frame with 7 observations on the following 2 variables.
   \describe{
@@ -33,10 +33,10 @@ Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}. Pearson Prentice-H
 %}
 
 \examples{
-data(ex13.4)
-str(ex13.4)
+data(ex13.04)
+str(ex13.04)
 
-asin.ex13.3 <- asin(sqrt(ex13.4/100))
+asin.ex13.3 <- asin(sqrt(ex13.04/100))
 asin.ex13.3 * 180 / pi
 mean(asin.ex13.3 * 180 / pi)
 }

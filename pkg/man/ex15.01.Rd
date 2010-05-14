@@ -1,17 +1,17 @@
-\name{ex15.1}
-\alias{ex15.1}
+\name{ex15.01}
+\alias{ex15.01}
 
 \docType{data}
 
 \title{
-Zar Data Set: ex15.1
+Zar Data Set: ex15.01
 }
 
 \description{
-Zar Data Set: ex15.1
+Zar Data Set: ex15.01
 }
 
-\usage{data(ex15.1)}
+\usage{data(ex15.01)}
 
 \format{
   A data frame with 12 observations on the following 3 variables.
@@ -35,14 +35,14 @@ Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}. Pearson Prentice-H
 %}
 
 \examples{
-data(ex15.1)
-str(ex15.1)
+data(ex15.01)
+str(ex15.01)
 
-aovfit1 <- aov(Chol ~ Drug + Drug/Source, data = ex15.1)
+aovfit1 <- aov(Chol ~ Drug + Drug/Source, data = ex15.01)
 summary(aovfit1)
 
 \dontrun{
-aovfit2 <- aov(Chol ~ Drug + Source %in% Drug, data = ex15.1)
+aovfit2 <- aov(Chol ~ Drug + Source %in% Drug, data = ex15.01)
 summary(aovfit2)
 }
 }
