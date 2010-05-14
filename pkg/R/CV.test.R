@@ -1,9 +1,13 @@
+# Test for differences between coefficients of variation.
+# Following Zar (2010) pp. 159-162
+# Written by Kevin Middleton (kmm@csusb.edu)
+
 CV.test <- function(x1, x2, test = "F"){
   n.x1 <- length(x1)
   df.x1 <- n.x1 - 1
   mean.x1 <- mean(x1, na.rm = TRUE)
   s.x1 <- sd(x1, na.rm = TRUE)
-  V.x1 <- s.x1 / mean.x1
+  V.x1 <- s.x1 / mean.x1            # Coefficient of variation
 
   n.x2 <- length(x2)
   df.x2 <- n.x2 - 1
@@ -23,6 +27,7 @@ CV.test <- function(x1, x2, test = "F"){
 
   # Z test
   if (test == "Z"){
+    # Pooled coefficient of variation
     V.p <- (df.x1 * V.x1 + df.x2 * V.x2) / (df.x1 + df.x2)
     V.p2 <- V.p^2
     test.stat <- (V.x1 - V.x2) / sqrt((V.p2 / df.x1 + V.p2 / df.x2) * 

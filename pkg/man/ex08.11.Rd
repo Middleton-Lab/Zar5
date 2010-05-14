@@ -17,8 +17,8 @@ Zar Data Set: ex08.11
   The format is:
 List of 2
 \describe{
-  \item{$ Males}{  : num [1:7] 193 188 185 183 180 175 170}
-  \item{$ Females}{: num [1:5] 178 173 168 165 163}
+  \item{$Males}{: num [1:7] 193 188 185 183 180 175 170}
+  \item{$Females}{: num [1:5] 178 173 168 165 163}
 }
 }
 

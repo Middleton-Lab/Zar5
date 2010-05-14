@@ -19,7 +19,9 @@ CV.test(x1, x2, test = "F")
 }
 
 \details{
-The variance-ratio test was described by Lewontin (1966), but apparently dates back to Wright (1952) and Bader and Lehman (1965). This test involves a ratio of log-transformed variances, compared with an \emph{F}-distribution with \eqn{n_{1}-1}{n1-1} and \eqn{n_{2}-1}{n2-1} degrees of freedom.
+The variance-ratio test was described by Lewontin (1966), but apparently dates back to Wright (1952) and Bader and Lehman (1965). This test involves a ratio of log-transformed variances, which follows an \emph{F}-distribution with \eqn{n_{1}-1}{n1-1} and \eqn{n_{2}-1}{n2-1} degrees of freedom.
+
+Miller (1991) describes a \emph{Z} test that does not involve a log-transformation, provided that the data are positive and normally distributed. The \emph{Z} test performs best if the coefficients of variation are less than 0.33.
 }
 
 \value{
@@ -33,6 +35,8 @@ The variance-ratio test was described by Lewontin (1966), but apparently dates b
 Bader, R.S. and W.H. Lehman. 1965. Phenotypic and genotypic variation in odontometric traits of the house mouse. \emph{American Midlands Naturalist} 74: 28-38.
 
 Lewontin, R.C. 1966. On the measurement of relative variability. \emph{Systematic Zoology} 15: 141-142. \url{http://www.jstor.org/stable/2411632}
+
+Miller, G.E. 1991. Asymptotic test statistics for coefficients of variation. \emph{Communications in Statistics-Theory and Methods} 20: 2251-2262.
 
 Wright, S. 1952. The genetics of quantitative variability. \emph{In:} Reeve, E.C.R. and C. Waddington (eds.). \emph{Quantitative Inheritance}. pp. 5-41. H.M.S.O., London.
 
