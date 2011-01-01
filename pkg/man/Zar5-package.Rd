@@ -16,10 +16,11 @@ Data sets and example code for Zar's Biostatistical Analysis (5th Edition).
 \tabular{ll}{
 Package: \tab Zar5\cr
 Type: \tab Package\cr
-Version: \tab 0.1-1\cr
-Date: \tab 2010-12-29\cr
+Version: \tab 0.1-2\cr
+Date: \tab 2010-12-31\cr
 License: \tab GPL\cr
 LazyLoad: \tab yes\cr
+LazyData: \tab yes\cr
 }
 }
 \author{
