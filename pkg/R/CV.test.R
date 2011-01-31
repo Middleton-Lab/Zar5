@@ -1,9 +1,3 @@
-# Test for differences between coefficients of variation.
-# Following Zar (2010) pp. 159-162
-# Written by Kevin Middleton (kmm@csusb.edu)
-
-
-
 #' Coefficient of Variation Test
 #' \code{CV.test} tests for the difference in coefficients of variations for
 #' two variables (\code{x1} and \code{x2}), using either a variance ratio
@@ -24,11 +18,14 @@
 #' @param test the type of test to perform, "F" for a variance-ratio test or
 #'   "Z" for a \emph{Z} test.
 #' @return \item{CV1, CV2 }{Coefficients of variation for \code{x1} and
-#'   \code{x2}. If test = "F", the coefficients of variation are reported in
-#'   the original (non-log-transformed) units.} \item{test}{The type of test
-#'   performed, "F" or "Z"} \item{test.stat}{The test statistic for
-#'   \code{test}} \item{p}{P-value for the test statistic}
+#'   \code{x2}. If \code{test = "F"}, the coefficients of variation are reported in
+#'   the original (non-log-transformed) units.}
+#'   \item{test}{The type of test performed, "F" or "Z"}
+#'   \item{test.stat}{The test statistic for \code{test}}
+#'   \item{p}{P-value for the test statistic}
+#' 
 #' @author Kevin Middleton (\email{kmm@@csusb.edu})
+#' 
 #' @references Bader, R.S. and W.H. Lehman. 1965. Phenotypic and genotypic
 #'   variation in odontometric traits of the house mouse. \emph{American
 #'   Midlands Naturalist} 74: 28-38.
@@ -48,7 +45,9 @@
 #'   Prentice-Hall. Upper Saddle River, NJ. ISBN-10: 0131008463. ISBN-13:
 #'   978013100846.
 #'   \url{http://www.pearsonhighered.com/educator/product/Biostatistical-Analysis/9780131008465.page}
+#' 
 #' @keywords univar
+#' 
 #' @examples
 #' 
 #' Weight <- ex08.08$Weight
