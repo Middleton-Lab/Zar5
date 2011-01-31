@@ -2,12 +2,13 @@
 \alias{ex08.11}
 \alias{ex08.11}
 \title{Zar Data Set: ex08...}
-\description{Zar Data Set: ex08.11
-Zar Data Set: ex08.11}
+\description{Zar Data Set: ex08.11}
+\details{Zar Data Set: ex08.11}
 \docType{data}
+\references{Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}.
+Pearson Prentice-Hall. Upper Saddle River, NJ. ISBN-10: 0131008463.
+ISBN-13: 978013100846.
+\url{http://www.pearsonhighered.com/educator/product/Biostatistical-Analysis/9780131008465.page}}
 \keyword{datasets}
-\examples{data(ex08.11)
-str(ex08.11)
-
-wilcox.test(ex08.11$Males, ex08.11$Females)}
+\examples{demo(ex08.11)}
 

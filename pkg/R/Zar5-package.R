@@ -28,6 +28,7 @@ NULL
 
 
 #' Zar Data Set: ex08.11
+#'
 #' Zar Data Set: ex08.11
 #' 
 #' 
@@ -36,7 +37,7 @@ NULL
 #' @format The format is: List of 2 \describe{ \item{$Weight}{: num [1:10] 72.5
 #'   71.7 60.8 63.2 71.4 73.1 77.9 75.7 72 69} \item{$Height}{: num [1:11] 183
 #'   172 180 190 191 ...} }
-#' @source Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}.
+#' @references Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}.
 #'   Pearson Prentice-Hall. Upper Saddle River, NJ. ISBN-10: 0131008463.
 #'   ISBN-13: 978013100846.
 #'   \url{http://www.pearsonhighered.com/educator/product/Biostatistical-Analysis/9780131008465.page}
@@ -92,6 +93,7 @@ NULL
 
 
 #' Zar Data Set: ex08.11
+#'
 #' Zar Data Set: ex08.11
 #' 
 #' 
@@ -100,17 +102,14 @@ NULL
 #' @format The format is: List of 2 \describe{ \item{$Males}{: num [1:7] 193
 #'   188 185 183 180 175 170} \item{$Females}{: num [1:5] 178 173 168 165 163}
 #'   }
-#' @source Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}.
+#' @references Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}.
 #'   Pearson Prentice-Hall. Upper Saddle River, NJ. ISBN-10: 0131008463.
 #'   ISBN-13: 978013100846.
 #'   \url{http://www.pearsonhighered.com/educator/product/Biostatistical-Analysis/9780131008465.page}
 #' @keywords datasets
 #' @examples
 #' 
-#' data(ex08.11)
-#' str(ex08.11)
-#' 
-#' wilcox.test(ex08.11$Males, ex08.11$Females)
+#' demo(ex08.11)
 #' 
 NULL
 
@@ -119,6 +118,7 @@ NULL
 
 
 #' Zar Data Set: ex10.01
+#'
 #' Zar Data Set: ex10.01
 #' 
 #' 
@@ -127,7 +127,7 @@ NULL
 #' @format A data frame with 20 observations on the following 2 variables.
 #'   \describe{ \item{list("X")}{a numeric vector} \item{list("Feed")}{a factor
 #'   with levels \code{1}, \code{2}, \code{3}, and \code{4}} }
-#' @source Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}.
+#' @references Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}.
 #'   Pearson Prentice-Hall. Upper Saddle River, NJ. ISBN-10: 0131008463.
 #'   ISBN-13: 978013100846.
 #'   \url{http://www.pearsonhighered.com/educator/product/Biostatistical-Analysis/9780131008465.page}
@@ -146,6 +146,7 @@ NULL
 
 
 #' Zar Data Set: ex10.02
+#'
 #' Zar Data Set: ex10.02
 #' 
 #' 
@@ -154,7 +155,7 @@ NULL
 #' @format A data frame with 20 observations on the following 2 variables.
 #'   \describe{ \item{list("X")}{a numeric vector} \item{list("Tech")}{a factor
 #'   with levels \code{1}, \code{2}, \code{3}, and \code{4}} }
-#' @source Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}.
+#' @references Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}.
 #'   Pearson Prentice-Hall. Upper Saddle River, NJ. ISBN-10: 0131008463.
 #'   ISBN-13: 978013100846.
 #'   \url{http://www.pearsonhighered.com/educator/product/Biostatistical-Analysis/9780131008465.page}
@@ -177,6 +178,7 @@ NULL
 
 
 #' Zar Data Set: ex12.01
+#'
 #' Zar Data Set: ex12.01
 #' 
 #' 
@@ -186,7 +188,7 @@ NULL
 #'   \describe{ \item{list("Ca")}{a numeric vector} \item{list("Trt")}{a factor
 #'   with levels \code{No} and \code{Yes}} \item{list("Sex")}{a factor with
 #'   levels \code{F} and \code{M}} }
-#' @source Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}.
+#' @references Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}.
 #'   Pearson Prentice-Hall. Upper Saddle River, NJ. ISBN-10: 0131008463.
 #'   ISBN-13: 978013100846.
 #'   \url{http://www.pearsonhighered.com/educator/product/Biostatistical-Analysis/9780131008465.page}
@@ -204,6 +206,7 @@ NULL
 
 
 #' Zar Data Set: ex13.03
+#'
 #' Zar Data Set: ex13.03
 #' 
 #' 
@@ -213,7 +216,7 @@ NULL
 #'   \describe{ \item{list("Group.1")}{a numeric vector}
 #'   \item{list("Group.2")}{a numeric vector} \item{list("Group.3")}{a numeric
 #'   vector} \item{list("Group.4")}{a numeric vector} }
-#' @source Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}.
+#' @references Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}.
 #'   Pearson Prentice-Hall. Upper Saddle River, NJ. ISBN-10: 0131008463.
 #'   ISBN-13: 978013100846.
 #'   \url{http://www.pearsonhighered.com/educator/product/Biostatistical-Analysis/9780131008465.page}
@@ -241,6 +244,7 @@ NULL
 
 
 #' Zar Data Set: ex13.3
+#'
 #' Zar Data Set: ex13.3
 #' 
 #' 
@@ -249,7 +253,7 @@ NULL
 #' @format A data frame with 7 observations on the following 2 variables.
 #'   \describe{ \item{list("insecticide1")}{a numeric vector}
 #'   \item{list("insecticide2")}{a numeric vector} }
-#' @source Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}.
+#' @references Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}.
 #'   Pearson Prentice-Hall. Upper Saddle River, NJ. ISBN-10: 0131008463.
 #'   ISBN-13: 978013100846.
 #'   \url{http://www.pearsonhighered.com/educator/product/Biostatistical-Analysis/9780131008465.page}
@@ -270,6 +274,7 @@ NULL
 
 
 #' Zar Data Set: ex15.01
+#'
 #' Zar Data Set: ex15.01
 #' 
 #' 
@@ -280,7 +285,7 @@ NULL
 #'   factor with levels \code{1}, \code{2}, and \code{3}}
 #'   \item{list("Source")}{a factor with levels \code{A}, \code{B}, \code{D},
 #'   \code{L}, \code{Q}, and \code{S}} }
-#' @source Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}.
+#' @references Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}.
 #'   Pearson Prentice-Hall. Upper Saddle River, NJ. ISBN-10: 0131008463.
 #'   ISBN-13: 978013100846.
 #'   \url{http://www.pearsonhighered.com/educator/product/Biostatistical-Analysis/9780131008465.page}
@@ -304,8 +309,9 @@ NULL
 
 
 
-#' Zar Data Set: ex15.01
-#' Zar Data Set: ex15.01
+#' Zar Data Set: ex16.01
+#'
+#' Zar Data Set: ex16.01
 #' 
 #' 
 #' @name ex16.01
@@ -314,7 +320,7 @@ NULL
 #'   \describe{ \item{list("fat")}{a numeric vector} \item{list("lean")}{a
 #'   numeric vector} \item{list("month")}{a factor with levels \code{Dec},
 #'   \code{Feb}, \code{Jan}, and \code{Mar}} }
-#' @source Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}.
+#' @references Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}.
 #'   Pearson Prentice-Hall. Upper Saddle River, NJ. ISBN-10: 0131008463.
 #'   ISBN-13: 978013100846.
 #'   \url{http://www.pearsonhighered.com/educator/product/Biostatistical-Analysis/9780131008465.page}

@@ -51,7 +51,6 @@
 #' @keywords univar
 #' @examples
 #' 
-#' data(ex08.08)
 #' Weight <- ex08.08$Weight
 #' Height <- ex08.08$Height
 #' CV.test(Weight, Height, test = "F")
