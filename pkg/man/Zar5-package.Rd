@@ -2,16 +2,18 @@
 \alias{Zar5-package}
 \alias{Zar5-package}
 \title{Zar5...}
-\description{Zar5
-Data sets and example code for Zar's Biostatistical Analysis (5th Edition).}
-\details{\tabular{ll}{ 
+\description{Zar5}
+\details{Data sets and example code for Zar's Biostatistical Analysis (5th Edition).
+
+\tabular{ll}{ 
 Package: \tab Zar5\cr
 Type: \tab Package\cr
 Version: \tab 0.1-3\cr
 Date: \tab 2011-01-30\cr
 License: \tab GPL\cr
 LazyLoad: \tab yes\cr
-LazyData: \tab yes\cr }}
+LazyData: \tab yes\cr
+}}
 \alias{Zar5-package}
 \alias{Zar5}
 \docType{package}

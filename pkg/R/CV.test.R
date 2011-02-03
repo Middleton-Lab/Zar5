@@ -1,4 +1,5 @@
 #' Coefficient of Variation Test
+#'
 #' \code{CV.test} tests for the difference in coefficients of variations for
 #' two variables (\code{x1} and \code{x2}), using either a variance ratio
 #' (\emph{F}) test (default) or a \emph{Z} test.
@@ -14,9 +15,11 @@
 #' variation are less than 0.33.
 #' 
 #' @aliases CV.test print.CV.test
+#' 
 #' @param x1,x2 numeric vectors
 #' @param test the type of test to perform, "F" for a variance-ratio test or
 #'   "Z" for a \emph{Z} test.
+#' 
 #' @return \item{CV1, CV2 }{Coefficients of variation for \code{x1} and
 #'   \code{x2}. If \code{test = "F"}, the coefficients of variation are reported in
 #'   the original (non-log-transformed) units.}

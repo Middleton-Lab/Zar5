@@ -1,4 +1,5 @@
 #' Zar5
+#' 
 #' Data sets and example code for Zar's Biostatistical Analysis (5th Edition).
 #' 
 #' \tabular{ll}{ 
@@ -8,7 +9,8 @@
 #'	Date: \tab 2011-01-30\cr
 #'	License: \tab GPL\cr
 #'	LazyLoad: \tab yes\cr
-#'  LazyData: \tab yes\cr }
+#'      LazyData: \tab yes\cr
+#'      }
 #' 
 #' @name Zar5-package
 #' 
@@ -39,9 +41,10 @@ NULL
 #' 
 #' @docType data
 #' 
-#' @format The format is: List of 2 \describe{ \item{$Weight}{: num [1:10] 72.5
-#'   71.7 60.8 63.2 71.4 73.1 77.9 75.7 72 69} \item{$Height}{: num [1:11] 183
-#'   172 180 190 191 ...} }
+#' @format The format is: List of 2
+#'         \describe{ \item{$Weight}{: num [1:10] 72.5 71.7 60.8 63.2 71.4 73.1 77.9 75.7 72 69}
+#'         \item{$Height}{: num [1:11] 183 172 180 190 191 ...}
+#'  }
 #' 
 #' @references Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}.
 #'   Pearson Prentice-Hall. Upper Saddle River, NJ. ISBN-10: 0131008463.
@@ -191,9 +194,12 @@ NULL
 #' @docType data
 #' 
 #' @format A data frame with 5 observations on the following 4 variables.
-#'   \describe{ \item{list("Group.1")}{a numeric vector}
-#'   \item{list("Group.2")}{a numeric vector} \item{list("Group.3")}{a numeric
-#'   vector} \item{list("Group.4")}{a numeric vector} }
+#'   \describe{
+#'             \item{list("Group.1")}{a numeric vector}
+#'             \item{list("Group.2")}{a numeric vector}
+#'             \item{list("Group.3")}{a numeric vector}
+#'             \item{list("Group.4")}{a numeric vector}
+#'  }
 #' 
 #' @references Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}.
 #'   Pearson Prentice-Hall. Upper Saddle River, NJ. ISBN-10: 0131008463.

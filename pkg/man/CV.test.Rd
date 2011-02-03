@@ -3,11 +3,12 @@
 \title{Coefficient of Variation Test...}
 \usage{CV.test(x1, x2, test="F")
 }
-\description{Coefficient of Variation Test
-\code{CV.test} tests for the difference in coefficients of variations for
+\description{Coefficient of Variation Test}
+\details{\code{CV.test} tests for the difference in coefficients of variations for
 two variables (\code{x1} and \code{x2}), using either a variance ratio
-(\emph{F}) test (default) or a \emph{Z} test.}
-\details{The variance-ratio test was described by Lewontin (1966), but apparently
+(\emph{F}) test (default) or a \emph{Z} test.
+
+The variance-ratio test was described by Lewontin (1966), but apparently
 dates back to Wright (1952) and Bader and Lehman (1965). This test involves
 a ratio of log-transformed variances, which follows an \emph{F}-distribution
 with \eqn{n_{1}-1}{n1-1} and \eqn{n_{2}-1}{n2-1} degrees of freedom.
