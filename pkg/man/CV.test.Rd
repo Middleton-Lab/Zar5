@@ -1,6 +1,6 @@
 \name{CV.test}
 \alias{CV.test}
-\title{Coefficient of Variation Test...}
+\title{Coefficient of Variation Test}
 \usage{CV.test(x1, x2, test="F")
 }
 \description{Coefficient of Variation Test}

@@ -1,10 +1,15 @@
 \name{ex08.08}
 \alias{ex08.08}
 \alias{ex08.08}
-\title{Zar Data Set: ex08...}
+\title{Zar Data Set: ex08.08}
 \description{Zar Data Set: ex08.08}
 \details{Zar Data Set: ex08.08}
 \docType{data}
+\format{The format is: List of 2
+\describe{
+\item{\code{$Weight}}{num [1:10] 72.5 71.7 60.8 63.2 71.4 73.1 77.9 75.7 72 69}
+\item{\code{$Height}}{num [1:11] 183 172 180 190 191 ...}
+}}
 \references{Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}.
 Pearson Prentice-Hall. Upper Saddle River, NJ. ISBN-10: 0131008463.
 ISBN-13: 978013100846.

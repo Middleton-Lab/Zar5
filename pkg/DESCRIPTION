@@ -5,11 +5,11 @@ Version: 0.1-3
 Date: 2011-01-30
 Author: Kevin Middleton <kmm@csusb.edu>
 Maintainer: Kevin Middleton <kmm@csusb.edu>
-Depends: R (>= 2.12)
+Depends: R (>= 2.12), plyr
 Description: Data sets from Biostatistical Analysis
     (5th edition) by Jerrold H. Zar.
 License: GPL-2
 LazyLoad: yes
 LazyData: yes
 Encoding: UTF-8
-Collate: 'CV.test.R' 'Zar5-package.R'
+Collate: 'CV.test.R' 'welchANOVA.R' 'Zar5-package.R'

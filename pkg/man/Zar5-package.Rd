@@ -5,7 +5,7 @@
 \description{Zar5}
 \details{Data sets and example code for Zar's Biostatistical Analysis (5th Edition).
 
-\tabular{ll}{ 
+\tabular{ll}{
 Package: \tab Zar5\cr
 Type: \tab Package\cr
 Version: \tab 0.1-3\cr
