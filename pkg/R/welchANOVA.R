@@ -9,11 +9,11 @@
 ##' 
 ##' @return An object of class \code{welchANOVA} containing:
 ##' \describe{
-##' \item{dat}{The original data in \code{data.frame} format}
-##' \item{Fprime}{Modified F statistic for the test}
-##' \item{df1}{Numerator degrees of freedom}
-##' \item{df2}{Denominator degrees of freedom}
-##' \item{P}{P-value for the test}
+##' \item{\code{dat}}{The original data in \code{data.frame} format}
+##' \item{\code{Fprime}}{Modified F statistic for the test}
+##' \item{\code{df1}}{Numerator degrees of freedom}
+##' \item{\code{df2}}{Denominator degrees of freedom}
+##' \item{\code{P}}{P-value for the test}
 ##' }
 ##' 
 ##' @author Kevin Middleton (\email{kmm@@csusb.edu})
