@@ -41,12 +41,13 @@ Wright, S. 1952. The genetics of quantitative variability. \emph{In:} Reeve,
 E.C.R. and C. Waddington (eds.). \emph{Quantitative Inheritance}. pp.
 5-41. H.M.S.O., London.
 
-Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}. Pearson
+Zar, J.H. 2010. \emph{Biostatistical Analysis}. 5th Edition. Pearson
 Prentice-Hall. Upper Saddle River, NJ. ISBN-10: 0131008463. ISBN-13:
 978013100846.
 \url{http://www.pearsonhighered.com/educator/product/Biostatistical-Analysis/9780131008465.page}}
 \keyword{univar}
-\arguments{\item{x1,x2}{numeric vectors}
+\arguments{\item{x1}{a numeric vector}
+\item{x2}{a numeric vector}
 \item{test}{the type of test to perform, "F" for a variance-ratio test or
 "Z" for a \emph{Z} test.}
 }

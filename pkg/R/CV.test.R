@@ -18,17 +18,18 @@
 ##' 
 ##' @aliases CV.test print.CV.test
 ##' 
-##' @param x1,x2 numeric vectors
+##' @param x1 a numeric vector
+##' @param x2 a numeric vector
 ##' @param test the type of test to perform, "F" for a variance-ratio test or
 ##'   "Z" for a \emph{Z} test.
 ##' 
 ##' @return
-##'   \item{CV1, CV2 }{Coefficients of variation for \code{x1} and
-##'     \code{x2}. If \code{test = "F"}, the coefficients of variation are reported in
-##'     the original (non-log-transformed) units.}
-##'   \item{test}{The type of test performed, "F" or "Z"}
-##'   \item{test.stat}{The test statistic for \code{test}}
-##'   \item{p}{P-value for the test statistic}
+##' \item{CV1, CV2 }{Coefficients of variation for \code{x1} and
+##'   \code{x2}. If \code{test = "F"}, the coefficients of variation are reported in
+##'   the original (non-log-transformed) units.}
+##' \item{test}{The type of test performed, "F" or "Z"}
+##' \item{test.stat}{The test statistic for \code{test}}
+##' \item{p}{P-value for the test statistic}
 ##' 
 ##' @author Kevin Middleton (\email{kmm@@csusb.edu})
 ##' 
@@ -47,7 +48,7 @@
 ##'   E.C.R. and C. Waddington (eds.). \emph{Quantitative Inheritance}. pp.
 ##'   5-41. H.M.S.O., London.
 ##' 
-##' Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}. Pearson
+##' Zar, J.H. 2010. \emph{Biostatistical Analysis}. 5th Edition. Pearson
 ##'   Prentice-Hall. Upper Saddle River, NJ. ISBN-10: 0131008463. ISBN-13:
 ##'   978013100846.
 ##'   \url{http://www.pearsonhighered.com/educator/product/Biostatistical-Analysis/9780131008465.page}
@@ -94,10 +95,13 @@ CV.test <- function(x1, x2, test = "F"){
     p <- 2 * pnorm(abs(test.stat), lower.tail = FALSE)
   }
 
-  zz <- list(CV1 = V.x1, CV2 = V.x2, test = test, test.stat = test.stat,
-    p = p)
+  zz <- list(CV1 = V.x1,
+             CV2 = V.x2,
+             test = test,
+             test.stat = test.stat,
+             p = p)
   class(zz) <- "CV.test"
-  zz
+  zz                                    # Return zz
 }
 
 print.CV.test <- function(x, ...){

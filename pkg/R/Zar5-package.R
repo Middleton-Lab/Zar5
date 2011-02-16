@@ -5,7 +5,7 @@
 ##' \tabular{ll}{
 ##' Package: \tab Zar5\cr
 ##' Type: \tab Package\cr
-##' Version: \tab 0.1-5\cr
+##' Version: \tab 0.1-6\cr
 ##' Date: \tab 2011-02-15\cr
 ##' License: \tab GPL\cr
 ##' LazyLoad: \tab yes\cr
@@ -20,16 +20,13 @@
 ##' 
 ##' @author Kevin Middleton (\email{kmm@@csusb.edu})
 ##' 
-##' @references Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}.
-##' Pearson Prentice-Hall. Upper Saddle River, NJ. ISBN-10: 0131008463.
-##' ISBN-13: 978013100846.
-##' \url{http://www.pearsonhighered.com/educator/product/Biostatistical-Analysis/9780131008465.page}
+##' @references Zar, J.H. 2010. \emph{Biostatistical Analysis}. 5th Edition. Pearson
+##' Prentice-Hall. Upper Saddle River, NJ. ISBN-10: 0131008463. ISBN-13:
+##' 978013100846.
+##'   \url{http://www.pearsonhighered.com/educator/product/Biostatistical-Analysis/9780131008465.page}
 ##' 
 ##' @keywords package
 NULL
-
-
-
 
 
 ##' Zar Data Set: ex08.08
@@ -48,7 +45,7 @@ NULL
 ##' \item{\code{$Height}}{num [1:11] 183 172 180 190 191 ...}
 ##' }
 ##' 
-##' @references Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}.
+##' @references Zar, J.H. 2010. \emph{Biostatistical Analysis}. 5th Edition.
 ##' Pearson Prentice-Hall. Upper Saddle River, NJ. ISBN-10: 0131008463.
 ##' ISBN-13: 978013100846.
 ##' \url{http://www.pearsonhighered.com/educator/product/Biostatistical-Analysis/9780131008465.page}
@@ -60,9 +57,6 @@ NULL
 ##' demo(ex08.08)
 ##' 
 NULL
-
-
-
 
 
 ##' Zar Data Set: ex08.11
@@ -81,7 +75,7 @@ NULL
 ##' \item{\code{$Females}}{num [1:5] 178 173 168 165 163}
 ##' }
 ##' 
-##' @references Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}.
+##' @references Zar, J.H. 2010. \emph{Biostatistical Analysis}. 5th Edition.
 ##' Pearson Prentice-Hall. Upper Saddle River, NJ. ISBN-10: 0131008463.
 ##' ISBN-13: 978013100846.
 ##' \url{http://www.pearsonhighered.com/educator/product/Biostatistical-Analysis/9780131008465.page}
@@ -93,9 +87,6 @@ NULL
 ##' demo(ex08.11)
 ##' 
 NULL
-
-
-
 
 
 ##' Zar Data Set: ex10.01
@@ -114,7 +105,7 @@ NULL
 ##' \item{\code{Feed}}{a factor with levels \code{1}, \code{2}, \code{3}, and \code{4}}
 ##' }
 ##' 
-##' @references Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}.
+##' @references Zar, J.H. 2010. \emph{Biostatistical Analysis}. 5th Edition.
 ##' Pearson Prentice-Hall. Upper Saddle River, NJ. ISBN-10: 0131008463.
 ##' ISBN-13: 978013100846.
 ##' \url{http://www.pearsonhighered.com/educator/product/Biostatistical-Analysis/9780131008465.page}
@@ -147,7 +138,7 @@ NULL
 ##' \item{\code{Tech}}{a factor with levels \code{1}, \code{2}, \code{3}, and \code{4}}
 ##' }
 ##' 
-##' @references Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}.
+##' @references Zar, J.H. 2010. \emph{Biostatistical Analysis}. 5th Edition.
 ##' Pearson Prentice-Hall. Upper Saddle River, NJ. ISBN-10: 0131008463.
 ##' ISBN-13: 978013100846.
 ##' \url{http://www.pearsonhighered.com/educator/product/Biostatistical-Analysis/9780131008465.page}
@@ -180,7 +171,7 @@ NULL
 ##' \item{\code{K}}{a numeric vector}
 ##' }
 ##' 
-##' @references Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}.
+##' @references Zar, J.H. 2010. \emph{Biostatistical Analysis}. 5th Edition.
 ##' Pearson Prentice-Hall. Upper Saddle River, NJ. ISBN-10: 0131008463.
 ##' ISBN-13: 978013100846.
 ##' \url{http://www.pearsonhighered.com/educator/product/Biostatistical-Analysis/9780131008465.page}
@@ -214,7 +205,7 @@ NULL
 ##' \item{\code{Sex}}{a factor with levels \code{F} and \code{M}}
 ##' }
 ##' 
-##' @references Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}.
+##' @references Zar, J.H. 2010. \emph{Biostatistical Analysis}. 5th Edition.
 ##' Pearson Prentice-Hall. Upper Saddle River, NJ. ISBN-10: 0131008463.
 ##' ISBN-13: 978013100846.
 ##' \url{http://www.pearsonhighered.com/educator/product/Biostatistical-Analysis/9780131008465.page}
@@ -249,7 +240,7 @@ NULL
 ##' \item{\code{Group.4}}{a numeric vector}
 ##' }
 ##' 
-##' @references Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}.
+##' @references Zar, J.H. 2010. \emph{Biostatistical Analysis}. 5th Edition.
 ##' Pearson Prentice-Hall. Upper Saddle River, NJ. ISBN-10: 0131008463.
 ##' ISBN-13: 978013100846.
 ##' \url{http://www.pearsonhighered.com/educator/product/Biostatistical-Analysis/9780131008465.page}
@@ -282,7 +273,7 @@ NULL
 ##' \item{\code{insecticide2}}{a numeric vector}
 ##' }
 ##' 
-##' @references Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}.
+##' @references Zar, J.H. 2010. \emph{Biostatistical Analysis}. 5th Edition.
 ##' Pearson Prentice-Hall. Upper Saddle River, NJ. ISBN-10: 0131008463.
 ##' ISBN-13: 978013100846.
 ##' \url{http://www.pearsonhighered.com/educator/product/Biostatistical-Analysis/9780131008465.page}
@@ -317,7 +308,7 @@ NULL
 ##'   \code{L}, \code{Q}, and \code{S}}
 ##' }
 ##' 
-##' @references Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}.
+##' @references Zar, J.H. 2010. \emph{Biostatistical Analysis}. 5th Edition.
 ##' Pearson Prentice-Hall. Upper Saddle River, NJ. ISBN-10: 0131008463.
 ##' ISBN-13: 978013100846.
 ##' \url{http://www.pearsonhighered.com/educator/product/Biostatistical-Analysis/9780131008465.page}
@@ -352,7 +343,7 @@ NULL
 ##'   \code{Feb}, \code{Jan}, and \code{Mar}}
 ##' }
 ##' 
-##' @references Zar, J.H. 2010. \emph{Biostatistical Analysis (5th Edition)}.
+##' @references Zar, J.H. 2010. \emph{Biostatistical Analysis}. 5th Edition.
 ##' Pearson Prentice-Hall. Upper Saddle River, NJ. ISBN-10: 0131008463.
 ##' ISBN-13: 978013100846.
 ##' \url{http://www.pearsonhighered.com/educator/product/Biostatistical-Analysis/9780131008465.page}
