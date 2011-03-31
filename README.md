@@ -14,3 +14,12 @@ Prentice-Hall. Upper Saddle River, NJ. ISBN-10: 0131008463. ISBN-13:
 
     demo(ex07.03)
     demo(ex08.08)
+    demo(ex08.11)
+    demo(ex10.01)
+    demo(ex10.02)
+    demo(ex10.03)
+    demo(ex12.01)
+    demo(ex13.03)
+    demo(ex13.04)
+    demo(ex15.01)
+    demo(ex16.01)
