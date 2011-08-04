@@ -1,12 +1,13 @@
 ##' Zar5
 ##' 
-##' Data sets and example code for Zar's Biostatistical Analysis (5th Edition).
+##' Data sets and example code for Zar's Biostatistical Analysis (5th
+##' Edition).
 ##' 
 ##' \tabular{ll}{
 ##' Package: \tab Zar5\cr
 ##' Type: \tab Package\cr
-##' Version: \tab 0.1-6\cr
-##' Date: \tab 2011-02-15\cr
+##' Version: \tab 0.1-7\cr
+##' Date: \tab 2011-08-04\cr
 ##' License: \tab GPL\cr
 ##' LazyLoad: \tab yes\cr
 ##' LazyData: \tab yes\cr
@@ -20,10 +21,10 @@
 ##' 
 ##' @author Kevin Middleton (\email{kmm@@csusb.edu})
 ##' 
-##' @references Zar, J.H. 2010. \emph{Biostatistical Analysis}. 5th Edition. Pearson
-##' Prentice-Hall. Upper Saddle River, NJ. ISBN-10: 0131008463. ISBN-13:
-##' 978013100846.
-##'   \url{http://www.pearsonhighered.com/educator/product/Biostatistical-Analysis/9780131008465.page}
+##' @references Zar, J.H. 2010. \emph{Biostatistical Analysis}. 5th
+##' Edition. Pearson Prentice-Hall. Upper Saddle River, NJ. ISBN-10:
+##' 0131008463. ISBN-13: 978013100846.
+##' \url{http://www.pearsonhighered.com/educator/product/Biostatistical-Analysis/9780131008465.page}
 ##' 
 ##' @keywords package
 NULL
@@ -45,9 +46,9 @@ NULL
 ##' @format The format is:
 ##' num [1:12] 0.2 -0.5 -1.3 -1.6 -0.7 0.4 -0.1 0 -0.6 -1.1 ...
 ##' 
-##' @references Zar, J.H. 2010. \emph{Biostatistical Analysis}. 5th Edition.
-##' Pearson Prentice-Hall. Upper Saddle River, NJ. ISBN-10: 0131008463.
-##' ISBN-13: 978013100846.
+##' @references Zar, J.H. 2010. \emph{Biostatistical Analysis}. 5th
+##' Edition.  Pearson Prentice-Hall. Upper Saddle River, NJ. ISBN-10:
+##' 0131008463.  ISBN-13: 978013100846.
 ##' \url{http://www.pearsonhighered.com/educator/product/Biostatistical-Analysis/9780131008465.page}
 ##' 
 ##' @keywords datasets

@@ -2,11 +2,22 @@
 
 Data sets from *Biostatistical Analysis* (5th ed.) by Jerrold H. Zar
 
+# Installation #
+
+You can install the most recent version directly from github using
+`install_github()` from the
+[devtools package](https://github.com/hadley/devtools).
+
+```R
+require(devtools)
+install_github("zar5", "kmiddleton")
+```
+
 # References #
 
-[Zar, J.H. 2010.][zarref] *Biostatistical Analysis*. 5th Edition. Pearson
-Prentice-Hall. Upper Saddle River, NJ. ISBN-10: 0131008463. ISBN-13:
-978013100846.
+[Zar, J.H. 2010.][zarref] *Biostatistical Analysis*. 5th
+Edition. Pearson Prentice-Hall. Upper Saddle River, NJ. ISBN-10:
+0131008463. ISBN-13: 978013100846.
 
 [zarref]:http://www.pearsonhighered.com/educator/product/Biostatistical-Analysis/9780131008465.page
 
