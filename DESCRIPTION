@@ -1,8 +1,8 @@
 Package: Zar5
 Type: Package
 Title: Data sets from Biostatistical Analysis
-Version: 0.1-7
-Date: 2011-08-04
+Version: 0.1-8
+Date: 2011-08-05
 Author: Kevin Middleton <kmm@csusb.edu>
 Maintainer: Kevin Middleton <kmm@csusb.edu>
 Depends:

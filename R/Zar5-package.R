@@ -6,8 +6,8 @@
 ##' \tabular{ll}{
 ##' Package: \tab Zar5\cr
 ##' Type: \tab Package\cr
-##' Version: \tab 0.1-7\cr
-##' Date: \tab 2011-08-04\cr
+##' Version: \tab 0.1-8\cr
+##' Date: \tab 2011-08-05\cr
 ##' License: \tab GPL\cr
 ##' LazyLoad: \tab yes\cr
 ##' LazyData: \tab yes\cr
