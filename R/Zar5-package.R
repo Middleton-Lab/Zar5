@@ -74,7 +74,8 @@ NULL
 ##' 
 ##' @format The format is: List of 2
 ##' \describe{
-##' \item{\code{$Weight}}{num [1:10] 72.5 71.7 60.8 63.2 71.4 73.1 77.9 75.7 72 69}
+##' \item{\code{$Weight}}{num [1:10] 72.5 71.7 60.8 63.2 71.4 73.1 
+##'       77.9 75.7 72 69}
 ##' \item{\code{$Height}}{num [1:11] 183 172 180 190 191 ...}
 ##' }
 ##' 
@@ -135,10 +136,12 @@ NULL
 ##' 
 ##' @docType data
 ##' 
-##' @format A data frame with 20 observations on the following 2 variables.
+##' @format A data frame with 20 observations on the following 2 
+##' variables.
 ##' \describe{
 ##' \item{\code{X}}{a numeric vector}
-##' \item{\code{Feed}}{a factor with levels \code{1}, \code{2}, \code{3}, and \code{4}}
+##' \item{\code{Feed}}{a factor with levels \code{1}, \code{2}, 
+##'       \code{3}, and \code{4}}
 ##' }
 ##' 
 ##' @references Zar, J.H. 2010. \emph{Biostatistical Analysis}. 5th Edition.
@@ -168,10 +171,12 @@ NULL
 ##' 
 ##' @docType data
 ##' 
-##' @format A data frame with 20 observations on the following 2 variables.
+##' @format A data frame with 20 observations on the following 2 
+##' variables.
 ##' \describe{
 ##' \item{\code{X}}{a numeric vector}
-##' \item{\code{Tech}}{a factor with levels \code{1}, \code{2}, \code{3}, and \code{4}}
+##' \item{\code{Tech}}{a factor with levels \code{1}, \code{2}, 
+##'       \code{3}, and \code{4}}
 ##' }
 ##' 
 ##' @references Zar, J.H. 2010. \emph{Biostatistical Analysis}. 5th Edition.
@@ -201,7 +206,8 @@ NULL
 ##' 
 ##' @docType data
 ##' 
-##' @format A data frame with 18 observations on the following 2 variables.
+##' @format A data frame with 18 observations on the following 2 
+##' variables.
 ##' \describe{
 ##' \item{\code{Variety}}{a factor with 3 levels: \code{G}, \code{A}, and \code{L}}
 ##' \item{\code{K}}{a numeric vector}
@@ -234,7 +240,8 @@ NULL
 ##' 
 ##' @docType data
 ##' 
-##' @format A data frame with 20 observations on the following 3 variables.
+##' @format A data frame with 20 observations on the following 3 
+##' variables.
 ##' \describe{
 ##' \item{\code{Ca}}{a numeric vector}
 ##' \item{\code{Trt}}{a factor with levels \code{No} and \code{Yes}}
@@ -268,7 +275,8 @@ NULL
 ##' 
 ##' @docType data
 ##' 
-##' @format A data frame with 5 observations on the following 4 variables.
+##' @format A data frame with 5 observations on the following 4 
+##' variables.
 ##' \describe{
 ##' \item{\code{Group.1}}{a numeric vector}
 ##' \item{\code{Group.2}}{a numeric vector}
@@ -303,7 +311,8 @@ NULL
 ##' 
 ##' @docType data
 ##' 
-##' @format A data frame with 7 observations on the following 2 variables.
+##' @format A data frame with 7 observations on the following 2 
+##' variables.
 ##' \describe{
 ##' \item{\code{insecticide1}}{a numeric vector}
 ##' \item{\code{insecticide2}}{a numeric vector}
@@ -336,7 +345,8 @@ NULL
 ##' 
 ##' @docType data
 ##' 
-##' @format A data frame with 12 observations on the following 3 variables.
+##' @format A data frame with 12 observations on the following 3 
+##' variables.
 ##' \describe{
 ##' \item{\code{Chol}}{a numeric vector}
 ##' \item{\code{Drug}}{a factor with levels \code{1}, \code{2}, and \code{3}}
@@ -371,7 +381,8 @@ NULL
 ##' 
 ##' @docType data
 ##' 
-##' @format A data frame with 20 observations on the following 3 variables.
+##' @format A data frame with 20 observations on the following 3 
+##' variables.
 ##' \describe{
 ##' \item{\code{fat}}{a numeric vector}
 ##' \item{\code{lean}}{a numeric vector}
