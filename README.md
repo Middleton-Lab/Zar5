@@ -13,6 +13,10 @@ require(devtools)
 install_github("zar5", "kmiddleton")
 ```
 
+Note that if you are using Windows, you will first need to install
+Rtools. Start at <http://www.murdoch-sutherland.com/Rtools/> and
+follow the links to CRAN.
+
 # References #
 
 [Zar, J.H. 2010.][zarref] *Biostatistical Analysis*. 5th
