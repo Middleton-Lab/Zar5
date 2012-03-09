@@ -1,5 +1,8 @@
 str(ex13.04)
 
-asin.ex13.3 <- asin(sqrt(ex13.04/100))
-asin.ex13.3 * 180 / pi
-mean(asin.ex13.3 * 180 / pi)
+x <- ex13.04
+
+asin.x <- asin(sqrt(x/100))
+x.deg <- x * 180 / pi
+
+colMeans(x.deg)

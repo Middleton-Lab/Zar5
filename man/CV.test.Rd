@@ -59,16 +59,16 @@ CV.test(Weight, Height, test = "Z")
   mouse. \emph{American Midlands Naturalist} 74: 28-38.
 
   Lewontin, R.C. 1966. On the measurement of relative
-  variability. \emph{Systematic Zoology} 15: 141-142.
+  variability.  \emph{Systematic Zoology} 15: 141-142.
   \url{http://www.jstor.org/stable/2411632}
 
   Miller, G.E. 1991. Asymptotic test statistics for
-  coefficients of variation. \emph{Communications in
+  coefficients of variation.  \emph{Communications in
   Statistics-Theory and Methods} 20: 2251-2262.
 
   Wright, S. 1952. The genetics of quantitative
   variability. \emph{In:} Reeve, E.C.R. and C. Waddington
-  (eds.). \emph{Quantitative Inheritance}. pp. 5-41.
+  (eds.). \emph{Quantitative Inheritance}. pp.  5-41.
   H.M.S.O., London.
 
   Zar, J.H. 2010. \emph{Biostatistical Analysis}. 5th

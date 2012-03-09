@@ -2,12 +2,13 @@
 \name{ex15.01}
 \alias{ex15.01}
 \title{Zar Data Set: ex15.01}
-\format{A data frame with 12 observations on the following 3 variables.
+\format{A data frame with 12 observations on the following 3
+variables.
 \describe{
 \item{\code{Chol}}{a numeric vector}
 \item{\code{Drug}}{a factor with levels \code{1}, \code{2}, and \code{3}}
 \item{\code{Source}}{a factor with levels \code{A}, \code{B}, \code{D},
-\code{L}, \code{Q}, and \code{S}}
+  \code{L}, \code{Q}, and \code{S}}
 }}
 \description{
   Zar Data Set: ex15.01

@@ -1,6 +1,5 @@
 \docType{package}
 \name{Zar5-package}
-\alias{"Zar5-package"}
 \alias{Zar5}
 \alias{Zar5-package}
 \title{Zar5}
@@ -10,7 +9,7 @@
 }
 \details{
   \tabular{ll}{ Package: \tab Zar5\cr Type: \tab Package\cr
-  Version: \tab 0.1-6\cr Date: \tab 2011-02-15\cr License:
+  Version: \tab 0.1-8\cr Date: \tab 2011-08-05\cr License:
   \tab GPL\cr LazyLoad: \tab yes\cr LazyData: \tab yes\cr }
 }
 \author{

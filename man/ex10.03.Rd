@@ -2,7 +2,8 @@
 \name{ex10.03}
 \alias{ex10.03}
 \title{Zar Data Set: ex10.03}
-\format{A data frame with 18 observations on the following 2 variables.
+\format{A data frame with 18 observations on the following 2
+variables.
 \describe{
 \item{\code{Variety}}{a factor with 3 levels: \code{G}, \code{A}, and \code{L}}
 \item{\code{K}}{a numeric vector}
