@@ -4,7 +4,8 @@
 \title{Zar Data Set: ex08.08}
 \format{The format is: List of 2
 \describe{
-\item{\code{$Weight}}{num [1:10] 72.5 71.7 60.8 63.2 71.4 73.1 77.9 75.7 72 69}
+\item{\code{$Weight}}{num [1:10] 72.5 71.7 60.8 63.2 71.4 73.1
+      77.9 75.7 72 69}
 \item{\code{$Height}}{num [1:11] 183 172 180 190 191 ...}
 }}
 \description{

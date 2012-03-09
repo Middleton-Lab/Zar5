@@ -2,7 +2,8 @@
 \name{ex13.04}
 \alias{ex13.04}
 \title{Zar Data Set: ex13.04}
-\format{A data frame with 7 observations on the following 2 variables.
+\format{A data frame with 7 observations on the following 2
+variables.
 \describe{
 \item{\code{insecticide1}}{a numeric vector}
 \item{\code{insecticide2}}{a numeric vector}

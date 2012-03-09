@@ -2,10 +2,12 @@
 \name{ex10.02}
 \alias{ex10.02}
 \title{Zar Data Set: ex10.02}
-\format{A data frame with 20 observations on the following 2 variables.
+\format{A data frame with 20 observations on the following 2
+variables.
 \describe{
 \item{\code{X}}{a numeric vector}
-\item{\code{Tech}}{a factor with levels \code{1}, \code{2}, \code{3}, and \code{4}}
+\item{\code{Tech}}{a factor with levels \code{1}, \code{2},
+      \code{3}, and \code{4}}
 }}
 \description{
   Zar Data Set: ex10.02

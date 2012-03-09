@@ -1,3 +1,10 @@
+.DS_Store
+*.pdf
 .Rproj.user
-.Rhistory
-.RData
+*.Rproj
+*.Rcheck
+*.tar.gz
+*~
+*.swp
+*.swo
+builds
