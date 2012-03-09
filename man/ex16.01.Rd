@@ -2,12 +2,13 @@
 \name{ex16.01}
 \alias{ex16.01}
 \title{Zar Data Set: ex16.01}
-\format{A data frame with 20 observations on the following 3 variables.
+\format{A data frame with 20 observations on the following 3
+variables.
 \describe{
 \item{\code{fat}}{a numeric vector}
 \item{\code{lean}}{a numeric vector}
 \item{\code{month}}{a factor with levels \code{Dec},
-\code{Feb}, \code{Jan}, and \code{Mar}}
+  \code{Feb}, \code{Jan}, and \code{Mar}}
 }}
 \description{
   Zar Data Set: ex16.01
