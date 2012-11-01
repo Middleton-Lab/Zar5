@@ -51,7 +51,7 @@ CV.test(Weight, Height, test = "F")
 CV.test(Weight, Height, test = "Z")
 }
 \author{
-  Kevin Middleton (\email{kmm@csusb.edu})
+  Kevin Middleton (\email{middletonk@missouri.edu})
 }
 \references{
   Bader, R.S. and W.H. Lehman. 1965. Phenotypic and

@@ -1,12 +1,12 @@
 Package: Zar5
 Type: Package
 Title: Data sets from Biostatistical Analysis
-Version: 0.2
+Version: 0.2-1
 Date: 2012-03-09
-Author: Kevin Middleton <kmm@csusb.edu>
-Maintainer: Kevin Middleton <kmm@csusb.edu>
+Author: Kevin Middleton <middletonk@missouri.edu>
+Maintainer: Kevin Middleton <middletonk@missouri.edu>
 Depends:
-    R (>= 2.14),
+    R (>= 2.15),
     plyr
 Description: Data sets from Biostatistical Analysis (5th
     edition) by Jerrold H. Zar.

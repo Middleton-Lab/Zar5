@@ -9,11 +9,11 @@
 }
 \details{
   \tabular{ll}{ Package: \tab Zar5\cr Type: \tab Package\cr
-  Version: \tab 0.2\cr Date: \tab 2012-03-09\cr License:
+  Version: \tab 0.2-1\cr Date: \tab 2012-11-01\cr License:
   \tab GPL\cr LazyLoad: \tab yes\cr LazyData: \tab yes\cr }
 }
 \author{
-  Kevin Middleton (\email{kmm@csusb.edu})
+  Kevin Middleton (\email{middletonk@missouri.edu})
 }
 \references{
   Zar, J.H. 2010. \emph{Biostatistical Analysis}. 5th

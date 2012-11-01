@@ -31,7 +31,7 @@
 ##' \item{test.stat}{The test statistic for \code{test}}
 ##' \item{p}{P-value for the test statistic}
 ##' 
-##' @author Kevin Middleton (\email{kmm@@csusb.edu})
+##' @author Kevin Middleton (\email{middletonk@@missouri.edu})
 ##' 
 ##' @references Bader, R.S. and W.H. Lehman. 1965. Phenotypic and genotypic
 ##'   variation in odontometric traits of the house mouse. \emph{American
