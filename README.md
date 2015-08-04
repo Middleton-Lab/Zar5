@@ -1,5 +1,7 @@
 # zar5 #
 
+[![Build Status](https://travis-ci.org/kmiddleton/zar5.png?branch=master)](https://travis-ci.org/kmiddleton/zar5)
+
 Data sets from *Biostatistical Analysis* (5th ed.) by Jerrold H. Zar
 
 # Installation #
