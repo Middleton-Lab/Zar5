@@ -1,11 +1,12 @@
 str(ex10.03)
 
-smry <- ddply(ex10.03, .(Variety),
-      function(x)c(n = length(x$K),
-                   df = length(x$K) - 1,
-                   Mean = mean(x$K),
-                   Variance = var(x$K),
-                   c_i = length(x$K) / var(x$K)))
+smry <- ex10.03 %>% group_by(Variety) %>% 
+  summarize(n = length(K),
+            df = length(K) - 1,
+            Mean = mean(K),
+            Variance = var(K),
+            c_i = length(K) / var(K))
+
 smry
 
 k <- 3

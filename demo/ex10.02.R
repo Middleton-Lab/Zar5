@@ -1,9 +1,9 @@
 str(ex10.02)
 
-ddply(ex10.02, .(Tech),
-      function(x)c(n = length(x$X),
-                   Mean = mean(x$X),
-                   Variance = var(x$X)))
+ex10.02 %>% group_by(Tech) %>% 
+  summarize(n = length(X),
+            Mean = mean(X),
+            Variance = var(X))
 
 fm1 <- aov(X ~ Tech, data = ex10.02)
 summary(fm1)

@@ -6,8 +6,8 @@
 ##' \tabular{ll}{
 ##' Package: \tab Zar5\cr
 ##' Type: \tab Package\cr
-##' Version: \tab 0.2-1\cr
-##' Date: \tab 2012-11-01\cr
+##' Version: \tab 0.3\cr
+##' Date: \tab 2016-02-17\cr
 ##' License: \tab GPL\cr
 ##' LazyLoad: \tab yes\cr
 ##' LazyData: \tab yes\cr
@@ -27,6 +27,8 @@
 ##' \url{http://www.pearsonhighered.com/educator/product/Biostatistical-Analysis/9780131008465.page}
 ##' 
 ##' @keywords package
+##' 
+##' @import dplyr
 NULL
 
 
