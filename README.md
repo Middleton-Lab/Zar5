@@ -1,6 +1,6 @@
 # zar5 #
 
-[![Build Status](https://travis-ci.org/kmiddleton/zar5.png?branch=master)](https://travis-ci.org/kmiddleton/zar5)
+[![Build Status](https://travis-ci.org/kmiddleton/Zar5.png?branch=master)](https://travis-ci.org/kmiddleton/zar5)
 
 Data sets from *Biostatistical Analysis* (5th ed.) by Jerrold H. Zar
 
@@ -12,7 +12,7 @@ You can install the most recent version directly from github using
 
 ```R
 require(devtools)
-install_github("zar5", "kmiddleton")
+install_github("Zar5", "kmiddleton")
 ```
 
 Note that if you are using Windows, you will first need to install
@@ -29,6 +29,7 @@ Edition. Pearson Prentice-Hall. Upper Saddle River, NJ. ISBN-10:
 
 # Demos #
 
+    library(Zar5)
     demo(ex07.03)
     demo(ex08.08)
     demo(ex08.11)
