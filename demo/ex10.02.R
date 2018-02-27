@@ -1,6 +1,7 @@
 str(ex10.02)
 
-ex10.02 %>% group_by(Tech) %>% 
+ex10.02 %>%
+  group_by(Tech) %>% 
   summarize(n = length(X),
             Mean = mean(X),
             Variance = var(X))

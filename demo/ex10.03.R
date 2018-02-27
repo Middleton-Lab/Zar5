@@ -1,6 +1,7 @@
 str(ex10.03)
 
-smry <- ex10.03 %>% group_by(Variety) %>% 
+smry <- ex10.03 %>%
+  group_by(Variety) %>% 
   summarize(n = length(K),
             df = length(K) - 1,
             Mean = mean(K),

@@ -6,8 +6,8 @@
 ##' \tabular{ll}{
 ##' Package: \tab Zar5\cr
 ##' Type: \tab Package\cr
-##' Version: \tab 0.3\cr
-##' Date: \tab 2016-02-17\cr
+##' Version: \tab 0.4\cr
+##' Date: \tab 2018-02-27\cr
 ##' License: \tab GPL\cr
 ##' LazyLoad: \tab yes\cr
 ##' LazyData: \tab yes\cr
@@ -28,11 +28,9 @@
 ##' 
 ##' @keywords package
 ##' 
-##' @import dplyr
+##' @import dplyr rethinking tidyverse
+##' @importFrom stats pf pnorm sd var
 NULL
-
-
-
 
 
 ##' Zar Data Set: ex07.03
@@ -60,8 +58,6 @@ NULL
 ##' demo(ex07.03)
 ##' 
 NULL
-
-
 
 
 ##' Zar Data Set: ex08.08
@@ -93,9 +89,6 @@ NULL
 ##' demo(ex08.08)
 ##' 
 NULL
-
-
-
 
 
 ##' Zar Data Set: ex08.11
@@ -160,9 +153,6 @@ NULL
 NULL
 
 
-
-
-
 ##' Zar Data Set: ex10.02
 ##'
 ##' Zar Data Set: ex10.02
@@ -195,9 +185,6 @@ NULL
 NULL
 
 
-
-
-
 ##' Zar Data Set: ex10.03
 ##'
 ##' Zar Data Set: ex10.03
@@ -227,9 +214,6 @@ NULL
 ##' demo(ex10.03)
 ##' 
 NULL
-
-
-
 
 
 ##' Zar Data Set: ex12.01
@@ -264,9 +248,6 @@ NULL
 NULL
 
 
-
-
-
 ##' Zar Data Set: ex12.04
 ##'
 ##' Zar Data Set: ex12.04
@@ -297,9 +278,6 @@ NULL
 ##' demo(ex12.04)
 ##' 
 NULL
-
-
-
 
 
 ##' Zar Data Set: ex13.03
@@ -335,9 +313,6 @@ NULL
 NULL
 
 
-
-
-
 ##' Zar Data Set: ex13.04
 ##'
 ##' Zar Data Set: ex13.04
@@ -367,9 +342,6 @@ NULL
 ##' demo(ex13.04)
 ##' 
 NULL
-
-
-
 
 
 ##' Zar Data Set: ex15.01
@@ -405,9 +377,6 @@ NULL
 NULL
 
 
-
-
-
 ##' Zar Data Set: ex16.01
 ##'
 ##' Zar Data Set: ex16.01
@@ -439,8 +408,4 @@ NULL
 ##' demo(ex16.01)
 ##' 
 NULL
-
-
-
-
 

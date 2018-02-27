@@ -49,9 +49,6 @@ CV.test(Weight, Height, test = "F")
 CV.test(Weight, Height, test = "Z")
 
 }
-\author{
-Kevin Middleton (\email{middletonk@missouri.edu})
-}
 \references{
 Bader, R.S. and W.H. Lehman. 1965. Phenotypic and genotypic
   variation in odontometric traits of the house mouse. \emph{American
@@ -73,5 +70,7 @@ Zar, J.H. 2010. \emph{Biostatistical Analysis}. 5th Edition. Pearson
   978013100846.
   \url{http://www.pearsonhighered.com/educator/product/Biostatistical-Analysis/9780131008465.page}
 }
+\author{
+Kevin Middleton (\email{middletonk@missouri.edu})
+}
 \keyword{univar}
-

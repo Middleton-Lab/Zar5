@@ -2,3 +2,9 @@
 
 export(CV.test)
 import(dplyr)
+import(rethinking)
+import(tidyverse)
+importFrom(stats,pf)
+importFrom(stats,pnorm)
+importFrom(stats,sd)
+importFrom(stats,var)
